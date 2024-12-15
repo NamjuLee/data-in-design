@@ -1,5 +1,6 @@
 # Data in Design I & II
 
+[web](https://namjulee.github.io/data-in-design/)
 [Github](https://github.com/NamjuLee/data-in-design)
 
 ```

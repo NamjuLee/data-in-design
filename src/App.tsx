@@ -31,13 +31,15 @@ const App = () => {
     );
   }
 
+  // console.log('ddd')
+
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<LectureWorkshop />} />
 
-          <Route path="lab" element={<Lab />}>
+          <Route path="class" element={<Lab />}>
             {LAB_LINKS.map(link => getLinkRoutes(link))}
           </Route>
 

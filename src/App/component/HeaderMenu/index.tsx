@@ -9,10 +9,10 @@ const HeaderMenu = () => {
           <a className="njs-icon" href="https://namjulee.github.io/njs-lab-public/" target="_blank" rel="noreferrer noopener">ⓝ</a>
           <ul>
             <li>
-              <Link to="/">Workshop</Link>
+              <Link to="/">index</Link>
             </li>
             <li>
-              <Link to="/lab">Lab</Link>
+              <Link to="/class">class</Link>
             </li>
 
           </ul>

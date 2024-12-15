@@ -8,6 +8,13 @@
     "homepage": "https://namjulee.github.io/data-in-design",
     "version": "0.1.0",
     "private": false,
+    "scripts": {
+        "dev": "react-scripts start",
+        "build": "react-scripts build",
+        "deploy": "gh-pages -d build",
+        "postinstall": "rimraf node_modules/preact/*/preact.d.ts",
+        "predeploy": "npm run build"
+    },
     "dependencies": {
         "@arcgis/core": "4.25.4",
         "@tensorflow/tfjs": "^4.22.0",
@@ -33,13 +40,6 @@
         "three-orbitcontrols-ts": "git+https://git@github.com/nicolaspanel/three-orbitcontrols-ts.git",
         "typescript": "^4.4.2",
         "web-vitals": "^2.1.0"
-    },
-    "scripts": {
-        "dev": "react-scripts start",
-        "build": "react-scripts build",
-        "deploy": "gh-pages -d build",
-        "postinstall": "rimraf node_modules/preact/*/preact.d.ts",
-        "predeploy": "npm run build"
     },
     "eslintConfig": {
         "extends": [
