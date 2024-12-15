@@ -1,6 +1,6 @@
 # Data in Design I & II
 
-
+[Github](https://github.com/NamjuLee/data-in-design)
 
 Data in Design: 0 Syllabus
 
