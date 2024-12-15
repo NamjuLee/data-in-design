@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkData_in_Design=self.webpackChunkData_in_Design||[]).push([[1620],{81620:(s,t,i)=>{i.r(t),i.d(t,{Solution:()=>h});class h{constructor(s){this.hostDiv=void 0,this.hostDiv=s;window.open("https://link.springer.com/chapter/10.1007/978-981-33-4400-6_11","_blank")}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=1620.b6cd6a75.chunk.js.map

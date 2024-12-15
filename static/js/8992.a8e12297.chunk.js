@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkData_in_Design=self.webpackChunkData_in_Design||[]).push([[8992],{98992:(e,s,n)=>{n.r(s),n.d(s,{Solution:()=>r});var o=n(71350);class r extends o.RendererJSAPI{constructor(e){super(e),this.start()}render(e){}mouseDown(e,s){}mouseUp(e,s){}mouseDrag(e,s){}mouseClick(e,s){}mouseMove(e,s){}keyDown(e){}}}}]);
+//# sourceMappingURL=8992.a8e12297.chunk.js.map
