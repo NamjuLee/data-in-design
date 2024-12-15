@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[8584],{18584:(s,t,i)=>{i.r(t),i.d(t,{Solution:()=>h});class h{constructor(s){this.hostDiv=void 0,this.hostDiv=s;window.open("https://brunch.co.kr/@njnamju/150","_blank")}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=8584.147c072b.chunk.js.map

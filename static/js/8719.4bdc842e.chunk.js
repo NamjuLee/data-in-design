@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkData_in_Design=self.webpackChunkData_in_Design||[]).push([[8719],{58719:(o,n,s)=>{s.r(n),s.d(n,{Solution:()=>i});class i{constructor(o){console.log("Let's learn Typescript for digital mapping and visualization!!"),console.log("02 Typescript, Condition and Loop"),console.log("==============================================================")}destroy(){}}}}]);
-//# sourceMappingURL=8719.4bdc842e.chunk.js.map

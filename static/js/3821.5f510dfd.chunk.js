@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[3821],{53821:(t,i,s)=>{s.r(i),s.d(i,{Solution:()=>e});class e{constructor(t){this.hostDiv=void 0,this.hostDiv=t;window.open("https://github.com/NamjuLee/Third-Place-Prediction-Report-V2022","_blank")}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=3821.5f510dfd.chunk.js.map

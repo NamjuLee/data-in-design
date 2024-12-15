@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[7906],{67906:(t,i,s)=>{s.r(i),s.d(i,{Solution:()=>e});class e{constructor(t){this.hostDiv=void 0,this.hostDiv=t;const i=document.createElement("iframe");i.src="https://namjulee.github.io/njs-lab-public/data-in-design?ui=0",i.width="100%",i.height="100%",i.style.background="#000",i.style.border="0px",t.appendChild(i)}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=7906.992ef3af.chunk.js.map

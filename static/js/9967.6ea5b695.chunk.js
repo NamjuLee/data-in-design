@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[9967],{19967:(t,e,s)=>{s.r(e),s.d(e,{Solution:()=>i});class i{constructor(t){this.hostDiv=void 0,this.hostDiv=t;const e=document.createElement("iframe");e.src="/data-in-design/reference/computationalDesign.pdf?transparent=0#toolbar=0",e.width="100%",e.height="100%",e.style.background="#000",e.style.border="0px",t.appendChild(e)}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=9967.6ea5b695.chunk.js.map

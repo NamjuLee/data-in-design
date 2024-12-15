@@ -1,0 +1,3 @@
+/*! For license information please see 4544.5374e792.chunk.js.LICENSE.txt */
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[4544],{92111:(t,n,e)=>{e.r(n),e.d(n,{CalciteAction:()=>a,defineCustomElement:()=>i});var s=e(48897);const a=s.A,i=s.d},66418:(t,n,e)=>{e.d(n,{g:()=>s});const s=()=>[2,1,1,1,3].map((t=>{let n="";for(let e=0;e<t;e++)n+=(65536*(1+Math.random())|0).toString(16).substring(1);return n})).join("-")}}]);
+//# sourceMappingURL=4544.5374e792.chunk.js.map

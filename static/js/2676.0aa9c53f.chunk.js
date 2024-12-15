@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkData_in_Design=self.webpackChunkData_in_Design||[]).push([[2676],{12676:(t,i,s)=>{s.r(i),s.d(i,{Solution:()=>a});class a{constructor(t){this.hostDiv=void 0,this.hostDiv=t;window.open("https://github.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/tree/main/src/PART_06_Problem_Data_Model_Train_Validation","_blank")}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
-//# sourceMappingURL=2676.0aa9c53f.chunk.js.map
