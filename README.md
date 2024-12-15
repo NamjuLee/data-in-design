@@ -2,6 +2,12 @@
 
 [Github](https://github.com/NamjuLee/data-in-design)
 
+```
+nvm install 20
+nvm use 20
+yarn
+yarn dev
+```
 Data in Design: 0 Syllabus
 
 ---
