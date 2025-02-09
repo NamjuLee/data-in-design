@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[8406],{18406:(t,s,e)=>{e.r(s),e.d(s,{Solution:()=>i});class i{constructor(t,s){this.hostDiv=void 0,this.hostDiv=t;const e=document.createElement("iframe");e.src=s,e.width="100%",e.height="100%",e.style.border="none",e.style.background="#fff",t.appendChild(e)}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=8406.81ce0e44.chunk.js.map

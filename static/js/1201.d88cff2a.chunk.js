@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[1201],{31201:(t,s,e)=>{e.r(s),e.d(s,{Solution:()=>i});class i{constructor(t){this.hostDiv=void 0,this.hostDiv=t;const s=document.createElement("iframe");s.src="https://computationaldesign.tistory.com/53",s.width="100%",s.height="100%",s.style.background="#fff",s.style.border="none",t.appendChild(s)}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
-//# sourceMappingURL=1201.d88cff2a.chunk.js.map
