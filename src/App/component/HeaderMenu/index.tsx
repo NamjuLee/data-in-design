@@ -14,7 +14,9 @@ const HeaderMenu = () => {
             <li>
               <Link to="/class">class</Link>
             </li>
-
+            <li>
+            <a href="https://github.com/NamjuLee/data-in-design" target="_blank" rel="noreferrer noopener">github</a>
+            </li>
           </ul>
         </nav>
     );

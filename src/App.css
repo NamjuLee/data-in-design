@@ -13,16 +13,12 @@
 }
 
 :root {
- /* --mainBGColor: #282c34; */
- --mainBGColor: #282c34;
- --mainFontColor: rgb(127, 127, 127);
+ --mainBGColor: #404040;
+ --mainFontColor: rgb(255,255,255);
  --mainHoverColor: #00bdbd;
  
  --secondBGColor: #fff;
- 
  --fontSize: 25px;
- 
- /* --font-family: ''; */
 }
 
 body{
