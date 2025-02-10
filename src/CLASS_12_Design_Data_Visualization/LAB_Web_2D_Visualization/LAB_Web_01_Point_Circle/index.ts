@@ -1,4 +1,4 @@
-import { RendererCanvas } from '../../lib';
+import { RendererCanvas } from '../../../lib';
 
 export class Solution extends RendererCanvas {
 

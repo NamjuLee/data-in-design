@@ -75,4 +75,6 @@ export class Solution  {
         console.log(mesh.vertex);
         console.log(mesh.face);
     }
+    public destroy() {
+    }
 }

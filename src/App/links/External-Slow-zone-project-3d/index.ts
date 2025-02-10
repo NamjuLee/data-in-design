@@ -3,7 +3,7 @@ export class Solution {
     constructor(div: HTMLElement) {
         this.hostDiv = div;
         const iframe = document.createElement('iframe');
-        iframe.src = 'https://namjulee.github.io/njs-lab-public/lab/project-slow-zone/project-slow-zone-viz?ui=0';
+        iframe.src = 'https://namjulee.github.io/njs-lab-public/lab/project-module-selected-works/project-slow-zone-viz?ui=0';
         iframe.width = '100%';
         iframe.height = '100%';
         iframe.style.background = '#fff';
