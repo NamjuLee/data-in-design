@@ -5,7 +5,7 @@ export class Solution {
     constructor(div: HTMLElement) {
         this.hostDiv = div;
         const iframe = document.createElement('iframe');
-        iframe.src = 'https://namjulee.github.io/njs-lab-public/lab/machine-learning/storymaps-tsne-viz?ui=0';
+        iframe.src = 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/storymaps-tsne-viz?ui=0';
         iframe.width = '100%';
         iframe.height = '100%';
         iframe.style.border ='none';

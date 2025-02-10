@@ -49,6 +49,11 @@ const VectorMenu: LinkInfo = {
         'divider',
         { id: 'Third-vec-start', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_03_Vector_Point/Project_01_vec').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         { id: 'Third-vec-basic', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_03_Vector_Point/Project_02_vec').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        'divider',
+        { id: 'Grid-system-ex-0', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/grid-system?ui=0'); }); } },
+        { id: 'Grid-system-ex-1', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/circle-grid1?ui=0'); }); } },
+        { id: 'Grid-system-ex-2', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/circle-grid2?ui=0'); }); } },
+        
     ]
 };
 const CurveMenu: LinkInfo = {
@@ -56,6 +61,9 @@ const CurveMenu: LinkInfo = {
         { id: 'Vector-Line-&-Polyline-&-Curve-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-curve-discrete-design-data/line-curve?ui=0'); }); } },
         'divider',
         { id: 'NURBS-Curve', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-curve-discrete-design-data/nurbs-curve?ui=0'); }); } },
+        { id: 'Polyline-ex-0', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/line-1?ui=0'); }); } },
+        { id: 'Polyline-ex-1', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/line-2?ui=0'); }); } },
+  
     ]
 };
 const SurfaceMenu: LinkInfo = {
@@ -90,10 +98,12 @@ const meshMenu: LinkInfo = {
         'divider',
         { id: 'Geometry-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-Geometry-for-design').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
         'divider',
-        'divider',
         { id: 'Three-Mesh', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_07_Mesh/LAB_Web_05_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         { id: 'Three-Mesh-Rhino', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_07_Mesh/LAB_Web_06_MeshRhino').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        'divider',
 
+        { id: 'Delaunay', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/algorithm-&-design-spatial-data-process/delaunay?ui=0'); }); } },
+        
     ]
 };
 const graphMenu: LinkInfo = {
@@ -103,6 +113,9 @@ const graphMenu: LinkInfo = {
         { id: 'Graph', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_08_Graph/LAB_Web_08_Graph').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'graph-example', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-graph-&-network-discrete-design-data?ui=1'); }); } },
         { id: 'NNA', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/project-module-selected-works/nna?ui=0&env=nna'); }); } },
+        'divider',
+        { id: 'Graph-Dynamics', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/graph-dynamics-demo?ui=0'); }); } },
+        
     ]
 };
 const rasterMenu: LinkInfo = {
@@ -110,10 +123,13 @@ const rasterMenu: LinkInfo = {
         { id: 'Raster-Pixel-&-Voxel-Data-Structure-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-raster-&-color-continuous-design-data/raster?ui=0'); }); } },
         { id: 'Color-as-data-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-raster-&-color-continuous-design-data/color-as-data?ui=0'); }); } },
         'divider',
+        { id: 'Bin-system', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/custom-bin-system?ui=0'); }); } },
+
         { id: 'Pixel', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_09_Raster_Pixel_Voxel/LAB_Web_09_Pixel').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'Voxel', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_09_Raster_Pixel_Voxel/LAB_Web_10_Voxel').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'A-star', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/geometry-spatial-tools/a-star?ui=0&demo'); }); } },
         { id: 'Data-Structure-and-Algorithm-for-Design-and-Research-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-pixel-&-voxel-map-continuous-design-data/raster-pixel-voxel?ui=0'); }); } },
+    
     ]
 };
 // ......................................... set E
@@ -123,24 +139,50 @@ const aimlMenu: LinkInfo = {
         { id: 'AI-&-data-for-design-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-and-data-for-design?ui=0'); }); } },
         'divider',
         { id: 'ML-Python-code', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/Link-ML-Python-Code').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
+        'divider',
         { id: 'TFJS-Tensor', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_10_AI_Model_Implementation/PART_06_Problem_Data_Model_Train_Validation/LAB_Web_01_Tensor').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         { id: 'TFJS-Linear-Regression', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_10_AI_Model_Implementation/PART_06_Problem_Data_Model_Train_Validation/LAB_Web_02_ModelLinearRegression').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         { id: 'TFJS-MPG', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_10_AI_Model_Implementation/PART_06_Problem_Data_Model_Train_Validation/LAB_Web_03_MPGPrediction').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         { id: 'Polynomial-regression', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ml-regression').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
-        { id: 'TFJS-KNN', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ml-knn').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
         { id: 'TFJS-IRIS', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_10_AI_Model_Implementation/PART_06_Problem_Data_Model_Train_Validation/LAB_Web_06_NetworkIrisPrediction').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 't-SNE-Viz', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-T-SNE').then(({ Solution }) => {  return new Solution(param.view as HTMLElement) }); } },
         'divider',
+        { id: 'TFJS-KNN', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ml-knn').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
+        { id: 't-SNE-Viz', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-T-SNE').then(({ Solution }) => {  return new Solution(param.view as HTMLElement) }); } },
         { id: 'Smart-Drawing', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_10_AI_Model_Implementation/PART_06_Problem_Data_Model_Train_Validation/LAB_03_SmartDrawing/src/App').then(({ AppSmartDrawing }) => { return new AppSmartDrawing(param.containerID) }); } },
         { id: 'Image-Face', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ml-image').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
         { id: 'Video-Face', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/Link-ml-video').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
         'divider',
+
+        { id: 'AI-Reference', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers?ui=1'); }); } },
+        
+
+        
     ]
 };
 const designAlgorithmMenu: LinkInfo = {
     id: 'Design-Algorithm-&-Dynamic-&-Opti', env: ENV.DEFAULT, keywords: ['air for design designers'], subLinks: [
         { id: 'Design-Algorithm-&-Dynamic-&-Optimization-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/algorithm-&-design-spatial-data-process/design-algorithm-&-dynamics-&-optimization?ui=0'); }); } },
-        // 'divider', 
+        'divider', 
+
+
+        { id: 'Grid-structure', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/grid-structure?ui=0'); }); } },
+        { id: 'Tensile-structure', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/tensile-structure?ui=0'); }); } },
+        { id: 'Circle-packing', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/circle-packing-dynamics?ui=0'); }); } },
+        { id: 'Particle-1', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/boid?ui=0'); }); } },
+        { id: 'Particle-2', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/boidsystemwander0?ui=0'); }); } },
+        { id: 'Pos-opti', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/rect-pos-opti?ui=0'); }); } },
+                                        
+        'divider', 
+        { id: 'Optimization-Reference', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation?ui=1'); }); } },
+            
     ]
 };
 // ......................................... set F

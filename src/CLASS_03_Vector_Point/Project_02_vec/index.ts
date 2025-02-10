@@ -10,7 +10,7 @@ export class Solution extends RendererWireframe {
     public init () {
   
       this.t = 0.0;
-      this.pts.push(...genGridPt());
+      this.pts.push(...genRandomPt());
   
     }
     public update() {
