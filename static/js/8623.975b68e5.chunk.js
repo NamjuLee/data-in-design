@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[8623],{48623:(i,s,t)=>{t.r(s),t.d(s,{Solution:()=>e});class e{constructor(i){this.hostDiv=void 0,this.hostDiv=i;window.open("https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/tf-video-face","_blank")}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=8623.975b68e5.chunk.js.map
