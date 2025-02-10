@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[2554],{42554:(t,i,s)=>{s.r(i),s.d(i,{Solution:()=>a});class a{constructor(t){this.hostDiv=void 0,this.hostDiv=t;window.open("https://github.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/tree/main/src/PART_04_Geometry_Data","_blank")}destroy(){for(;this.hostDiv.lastElementChild;)this.hostDiv.removeChild(this.hostDiv.lastElementChild)}}}}]);
+//# sourceMappingURL=2554.6a176fca.chunk.js.map
