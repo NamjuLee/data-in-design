@@ -3,6 +3,7 @@
 **/*.txt.ignore
 **/njscore-package
 
+**/*.keras
 **/*.h5
 **/*.hdf5
 **/*.bin
