@@ -1,9 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-
-// import 'highlight.js/styles/github.css';
 import stylesMarkdown from "./Markdown.module.css";
-
 import Footer from "../../component/Footer";
 import { useState } from "react";
 
@@ -18,18 +15,14 @@ const getMD = async (path: string) => {
 };
 
 const LectureWorkshop = () => {
-  // const url = `https://raw.githubusercontent.com/NamjuLee/data/master/works/sample/${51}.jpg`;
-  // const url = `https://raw.githubusercontent.com/NamjuLee/data/master/geometry/pointGrid/pointGrid-1.png`;
-  const url = `https://raw.githubusercontent.com/NamjuLee/data/master/works/geometry/curvature.png`;
-  // const url = `https://raw.githubusercontent.com/NamjuLee/data/master/works/sample/18.jpg`;
-  // const url = `https://raw.githubusercontent.com/NamjuLee/data/master/works/sample/53.jpg`;
+  const url = `https://raw.githubusercontent.com/NamjuLee/data/master/works/sample/18.jpg`;
 
   const bgStyle = {
     background: "rgba(0,0,0, 0.75)",
     backgroundBlendMode: "multiply",
     backgroundImage: `url(${url})`,
     backgroundSize: "cover",
-    backgroundPosition: "center", // Math.random() < 0.5 ? 'center center' : '',
+    backgroundPosition: "center",
   };
 
   const [dataMD, setDataMD] = useState("");
@@ -46,13 +39,11 @@ const LectureWorkshop = () => {
 
   return (
     <div>
-      {/* <div className='data-design-container'> */}
       <div style={bgStyle}>
         <div className="text-center">
           <h2 className="title-sub">Introduction to Computation for design</h2>
           <h1 className="title">Data in Design</h1>
         </div>
-        {/* </div> */}
 
         <div className="lecture-workshop-center">
           <p>
