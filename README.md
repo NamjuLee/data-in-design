@@ -150,14 +150,14 @@ Design and implement custom tools for design algorithms and projects, tailored t
 
 **LOCATION:**  
 
-* TBA
+* 공 367호
 
 **DATE:**  
 
-* TBA
+* 매주 화요일
 
 **TIME:**  
-* 2PM ~ 5PM
+* 16:30 ~ 19:15
 * 20% for lectures, 70% for workshops, and 10% for exercise and troubleshooting
 
 
@@ -170,6 +170,10 @@ Design and implement custom tools for design algorithms and projects, tailored t
 	* Programming Language: [Python](https://www.python.org/)([Anaconda](https://docs.anaconda.com/anaconda/install/index.html)), [Typescript](https://www.typescriptlang.org/)([Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript))  
 	* Library: [NJSCore](https://www.npmjs.com/package/njscore), [Numpy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [Tensorflow](https://www.tensorflow.org/), [TensorflowJS](https://www.tensorflow.org/js)  
 	* Software: [Visual Studio Code](https://code.visualstudio.com/Download), [NodeJS](https://nodejs.org/en/), [Github Desktop](https://desktop.github.com/)  
+
+	* GH Add-On
+		* [NJS lib](https://github.com/NamjuLee/data-in-design/blob/main/src/lib/njs.zip)
+		* [Millipede lib](https://github.com/NamjuLee/data-in-design/blob/main/src/lib/Millipede.zip)  
 
 **Prerequisite**  
 * Experience in design  
