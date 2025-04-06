@@ -1,2 +1,0 @@
-(self.webpackChunkdata_in_design=self.webpackChunkdata_in_design||[]).push([[8974],{55384:(o,s,e)=>{"use strict";e.r(s),e.d(s,{Solution:()=>n});e(40011),e(59788);class n{destroy(){}constructor(o){console.log("Let's learn TF JS !!"),console.log("=============================="),console.log("Playground done!")}}},85817:()=>{},18590:()=>{},4530:()=>{},8108:()=>{},80551:()=>{},41234:()=>{}}]);
-//# sourceMappingURL=8974.2a6569af.chunk.js.map
