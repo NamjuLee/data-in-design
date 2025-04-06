@@ -171,9 +171,33 @@ Design and implement custom tools for design algorithms and projects, tailored t
 	* Library: [NJSCore](https://www.npmjs.com/package/njscore), [Numpy](https://numpy.org/), [Pandas](https://pandas.pydata.org/), [Tensorflow](https://www.tensorflow.org/), [TensorflowJS](https://www.tensorflow.org/js)  
 	* Software: [Visual Studio Code](https://code.visualstudio.com/Download), [NodeJS](https://nodejs.org/en/), [Github Desktop](https://desktop.github.com/)  
 
-	* GH Add-On
+	* GH Add-On:
 		* [NJS lib](https://github.com/NamjuLee/data-in-design/blob/main/src/lib/njs.zip)
 		* [Millipede lib](https://github.com/NamjuLee/data-in-design/blob/main/src/lib/Millipede.zip)  
+
+	* Examples:
+		* NNA[https://namjulee.github.io/njs-lab-public/work?id=2020-post-covid-19-urbanism]
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NNA.zip
+		
+		* [Numerical Architecture Compiler](https://namjulee.github.io/njs-lab-public/work?id=2015-ac-development)
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NumericalArchitectureCompiler.zip
+		
+		* [Numerical Environmental Utility](https://namjulee.github.io/njs-lab-public/work?id=2015-neu-development)
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NumericalEnvironmentalUtility.zip
+		
+		* [Numerical Dynamics Utility](https://namjulee.github.io/njs-lab-public/work?id=2015-ngu-dynamic-development)
+		* [Numerical Geometry Utility](https://namjulee.github.io/njs-lab-public/work?id=2015-ngu-development)
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NumericalGeometry.zip
+
+		* [Numerical Image Utility](https://namjulee.github.io/njs-lab-public/work?id=2018-niu-development)
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NumericalImageUtility.zip
+		
+		* [Numerical Mapping Utility](https://namjulee.github.io/njs-lab-public/work?id=2018-nmu-development)
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NumericalMappingUtilityWithPython.zip
+		
+		* [Numerical Urban Utility](https://namjulee.github.io/njs-lab-public/work?id=2016-mobility-energy-consumption-mit-media-lab)
+			* https://github.com/NamjuLee/data-in-design/blob/main/src/lib/examples/NumericalUrbanUtility.zip
+
 
 **Prerequisite**  
 * Experience in design  
@@ -227,6 +251,7 @@ Design and implement custom tools for design algorithms and projects, tailored t
   6-3. 소프트웨어 아키텍쳐와 디자인 패턴 
   과제 선정: 프로젝트(디자인, 글, 알고리즘) 선택 및 해결하고자 하는 문제에 대한 기술기술, 발표와 피드백  
 
+---
 ### 7. 공간(디자인) 정보와 이산화   
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_12_8), [Sub Slides](https://docs.google.com/presentation/d/1pkv8KyhsHyQfqmEF50KkFyTADL2CHMiH7e7bpB4_1X8/edit#slide=id.g3311c940872_2_0)   
   7-1. 공간 분할과 파티셔닝  
@@ -255,31 +280,36 @@ Design and implement custom tools for design algorithms and projects, tailored t
   10-3. 문제 정의, 데이터 활용, 인공지능 모델 이해  
   10-4. 분석형 모델 & 생성형 모델: 데이터 형식과 내용 그리고 모델의 적용
 
-### 11. 디자인 알고리즘: 최적화와 구현   
+### 11. 생성형 & 분석형 인공지능
+[Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_45), [Sub Slides](https://docs.google.com/presentation/d/1doBs3aSmZYoaLMCfzKzOfh2o2r7tDj2rQgUy53JXa9Q/edit#slide=id.g3438d42c00b_0_0)   
+
+
+### 12. 디자인 알고리즘: 최적화와 구현 & 다이내믹스  
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_35), [Sub Slides](https://docs.google.com/presentation/d/18N_u8LJRwe8OYTJDFqicYapNVttB4mq6sFFL-A6Xlus/edit#slide=id.g3311d26508e_0_50)    
   11-1. 문제에 특성과 최적화 이해
   11-2. 디자인 프로세스의 코드화 및 최적화  
   11-3. 벡터와 다이내믹스  
 
 ---
-### 12. 데이터(디자인) 시각화   
+### 13. 데이터(디자인) 시각화   
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_5), [Sub Slides](https://docs.google.com/presentation/d/1_8A_ONw4lpCGR3cwS71rbmzDpUStGxJ9lPL-YntxAiQ/edit#slide=id.g3311d3ccee9_0_50)  
   12-1. 데이터 시각화의 이해와 구현  
   12-2. 2D, 3D 시각화와 파이프라인 이해  
   12-3. VR/AR/MR 시각화 구현  
 
-### 13. CAD 프로그램 개발  
+### 14. CAD 프로그램 개발 
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g324bb5a5349_0_1686), [Sub Slides](https://docs.google.com/presentation/d/1oQEzjHUPY0kKehWXD5ZbwDDJIVL7W9wH0vWlJpqRW5w/edit#slide=id.g3311d3ccf75_0_50)    
   13-1. 디자인 소프트웨어의 이해  
   13-2. 연구 및 디자인 도구 개발  
   13-3. Web / Windows / IOS/ Addon / Plugin Development
 
-### 14. 프로젝트 1
+---
+### 15. 프로젝트 1
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_0), [Sub Slides](https://docs.google.com/presentation/d/1f5hh1dYpKtgTrKL358lhOF5fgnmaVwUIN1Ha-wdXiTU/edit#slide=id.g3311d3ccf93_1_0)  
 
 프로젝트 기획 및 진행
 
-### 15. 프로젝트 2
+### 16. 프로젝트 2
   최종 프로젝트 발표 및 리뷰
 
 
@@ -1000,10 +1030,10 @@ rhinoscriptsyntax, surface related functions
 
 ## 10.2 Discussion:
 * AI and Design / 인공지능과 디자인 
-* 초지능과 디자인
+* Superintelligence & Design / 초지능과 디자인
 
 
-![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/CartPole.gif)
+
 
 ## 10.3 Lab:
 ![](https://raw.githubusercontent.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/main/public/reference/img/digitalTexture.jpg)
@@ -1024,6 +1054,52 @@ rhinoscriptsyntax, surface related functions
 	LAB 07 - Data Reference Basic Analytical Models  
 	LAB 13 - Others  
 
+* Workshop
+	* web - https://namjulee.github.io/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/ 
+	* git - https://github.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public?tab=readme-ov-file 
+
+![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/QLearningGraph.gif)
+
+## 10.4 Assignment:
+* Coding:  
+	* Complete the workshops  
+
+* Lecture:  
+	* [#컴퓨테이셔널디자인 33] 디자인 엔지니어링 / Design Engineering - https://namjulee.github.io/njs-lab-public/lecture?id=_fK6MPYgHKo  
+	* QnA 136 디자이너가 AI (데이터)를 바라볼 때 - https://namjulee.github.io/njs-lab-public/lecture?id=XYFE_xdwD_A
+
+
+* Presentation:  
+	* 인공지능(머신러닝) 모델과 데이터 / 참여한 프로젝트 및 연구를 정리하여 발표하기  
+	* 최종 과제 점검  
+
+![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/QLearningPixelVoxel.gif)
+
+## 10.5 Reference:
+* AI & Design - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-for-design 
+
+* Link
+	* AI for designers - https://computationaldesign.tistory.com/55 
+	* AI and Data for design - https://computationaldesign.tistory.com/29
+
+* Smart Drawing - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/tf-smart-drawing  
+* Regression - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/tf-regression
+
+
+# 11. Analytical AI & Generative AI
+## 11. 분석형 & 생성형 인공지능
+
+![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/CartPole.gif)
+
+## 11.1 Lecture:  
+
+
+## 11.2 Discussion:  
+* Will some jobs be replaced by Artificial Intelligence? 
+
+
+## 11.3 Lab:  
+
 * Generative models
 	LAB 01 - Sketch To Rendering  
 	LAB 02 - Text to Image  
@@ -1042,37 +1118,17 @@ rhinoscriptsyntax, surface related functions
   * review(video) - https://namjulee.github.io/njs-lab-public/lecture?id=hzwkfnVSH4o
   * git(code) - https://github.com/NamjuLee/Third-Place-Prediction-Report-V2022
 
-* Workshop
-	* web - https://namjulee.github.io/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/ 
-	* git - https://github.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public?tab=readme-ov-file 
-
-![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/QLearningGraph.gif)
-
-## 10.4 Assignment:
+## 11.4 Assignment:
 * Coding:  
 	* Complete the workshops  
 
 * Lecture:  
-	* [#컴퓨테이셔널디자인 33] 디자인 엔지니어링 / Design Engineering - https://namjulee.github.io/njs-lab-public/lecture?id=_fK6MPYgHKo  
-	* QnA 136 디자이너가 AI (데이터)를 바라볼 때 - https://namjulee.github.io/njs-lab-public/lecture?id=XYFE_xdwD_A
-	* 건축학회 기고글 제3의공간 분석과 적용디자인 데이터 인공지능 글 리뷰 - https://namjulee.github.io/njs-lab-public/lecture?id=hzwkfnVSH4o  
-
 	* #NJC QnA 122 디자이너를 위한 데이터사이언스 학습 / 적용 전략 - https://namjulee.github.io/njs-lab-public/lecture?id=0oJqBTQWDZg
 
+	* 건축학회 기고글 제3의공간 분석과 적용디자인 데이터 인공지능 글 리뷰 - https://namjulee.github.io/njs-lab-public/lecture?id=hzwkfnVSH4o  
 
-* Presentation:  
-	* 인공지능(머신러닝) 모델과 데이터 / 참여한 프로젝트 및 연구를 정리하여 발표하기  
-	* 최종 과제 점검  
 
-![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/QLearningPixelVoxel.gif)
-
-## 10.5 Reference:
-* AI & Design - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-for-design 
-
-* Link
-	* AI for designers - https://computationaldesign.tistory.com/55 
-	* AI and Data for design - https://computationaldesign.tistory.com/29
-
+## 11.5 Reference:  
 *  Introduction to Third Place Prediction Research
 	* ![](https://raw.githubusercontent.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/main/public/reference/img/thirdPlace.jpg)
 	* LECTURE : [Reading](https://nj-namju.medium.com/third-place-analysis-and-implementation-design-data-artificial-intelligence-bf802a8e7e0a)
@@ -1094,15 +1150,12 @@ rhinoscriptsyntax, surface related functions
 			LAB 01 - Visualization  
 			LAB 02 - Model implementation(Boston, LA, and Redlands)  
 
-* Smart Drawing - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/tf-smart-drawing  
-* Regression - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/tf-regression
-
 ---
-# 11. Design Algorithm & implementation & Dynamics & Optimization
-## 11. 디자인 알고리즘: 최적화와 구현 & 다이내믹스
+# 12. Design Algorithm & implementation & Dynamics & Optimization
+## 12. 디자인 알고리즘: 최적화와 구현 & 다이내믹스
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/computation/Programming/DataStructure.png)
 
-## 11.1 Lecture:
+## 12.1 Lecture:
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_35)  
 
 * Lecture - https://namjulee.github.io/njs-lab-public/lab/algorithm-&-design-spatial-data-process/design-algorithm-&-dynamics-&-optimization   
@@ -1123,10 +1176,10 @@ rhinoscriptsyntax, surface related functions
 
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/computation/Programming/StackQueue.png)
 
-## 11.2 Discussion:  
+## 12.2 Discussion:  
 * QnA  
 
-## 11.3 Lab:
+## 12.3 Lab:
 * Brute force / Genetic Algorithm  
 * Particle / Dynamics / Optimization  
 * Spring model  
@@ -1152,7 +1205,7 @@ rhinoscriptsyntax, surface related functions
 			https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/truss-structure  
 
 
-## 11.4 Assignment:
+## 12.4 Assignment:
 * Coding
 	* Complete the workshops
 
@@ -1169,7 +1222,7 @@ rhinoscriptsyntax, surface related functions
 
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/DQNlayout.gif)
 
-## 11.5 Reference:
+## 12.5 Reference:
 
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/computation/07_1500.gif)
 
@@ -1180,11 +1233,11 @@ rhinoscriptsyntax, surface related functions
 	* QnA 106 컴퓨테이셔널 디자인에 정의? 에 답을 해 보자! - https://namjulee.github.io/njs-lab-public/lecture?id=GKufzU2nnaQ  
 
 ---
-# 12. Design & Data Visualization
-## 12. 데이터(디자인) / 2D & 3D 시각화
+# 13. Design & Data Visualization
+## 13. 데이터(디자인) / 2D & 3D 시각화
 ![](https://raw.githubusercontent.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/main/public/reference/img/mapping2.jpg)
 
-## 12.1 Lecture:
+## 13.1 Lecture:
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_5)  
 
 * Lecture - https://namjulee.github.io/njs-lab-public/lab/visualization-design-data-vr-ar-mr/design-vis-web  
@@ -1200,16 +1253,16 @@ rhinoscriptsyntax, surface related functions
 * Digital Mapping GH - https://namjulee.github.io/njs-lab-public/lab/workshop-series/digital-mapping-gh    
 
 
-## 12.2 Discussion:
+## 13.2 Discussion:
 * QnA
 
-## 12.3 Lab:
+## 13.3 Lab:
 * Three JS/ Canvas 
 * Data Visualization / Chart  
 * 2D HTML Canvas
 * 3D Three Visualization / Unity
 
-## 12.4 Assignment:
+## 13.4 Assignment:
 
 * Coding:  
 	* Complete the workshops  
@@ -1222,7 +1275,7 @@ rhinoscriptsyntax, surface related functions
 
 
 
-## 12.5 Reference:
+## 13.5 Reference:
 * 유니티 쓰리제이에스 캔버스 소개
 
 * Interactive Visualization on Web. 
@@ -1267,11 +1320,11 @@ rhinoscriptsyntax, surface related functions
 
 
 
-# 13. CAD App Development
-## 13. CAD 프로그램 개발
+# 14. CAD App Development
+## 14. CAD 프로그램 개발
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/cad-app/cad-standalone-dev.png)  
 
-## 13.1 Lecture:  
+## 14.1 Lecture:  
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g324bb5a5349_0_1686)  
 
 * Lecture - CAD App Starter - https://namjulee.github.io/njs-lab-public/lab/cad-app-starter-index/cad-app-starter   
@@ -1280,15 +1333,15 @@ rhinoscriptsyntax, surface related functions
 
 * Plugin & Addon - https://namjulee.github.io/njs-lab-public/lab/cad-app-starter-index/plugin-&-addon  
 
-## 13.2 Discussion:
+## 14.2 Discussion:
 * QnA  
 
-## 13.3 Lab:  
+## 14.3 Lab:  
 * Pipelines(events / rendering)  
 * Web app / Plugin & Addon development 
 * Tools for design and research
 
-## 13.4 Assignment:
+## 14.4 Assignment:
 * Coding:  
 	* Complete the workshops  
 
@@ -1298,7 +1351,7 @@ rhinoscriptsyntax, surface related functions
 	* 기술의 발전에 따라 건축가의 역할이 줄어들까? 소프트웨어 기술 / 하드웨어 기술 / 창의성에 대해 - https://namjulee.github.io/njs-lab-public/lecture?id=yLLbuBYdue0  
 
 
-## 13.5 Reference:
+## 14.5 Reference:
 * Lecture  
 	* 캐드, 데이트의 흐름 / CAD data pipeline - https://namjulee.github.io/njs-lab-public/lecture?id=n7qvjYWHyRs  
 	* 컴퓨테이셔널 사고와 파이프라인의 중요성 (발췌 버전) - https://namjulee.github.io/njs-lab-public/lecture?id=D9Gi7X6jaIk   
@@ -1309,7 +1362,7 @@ rhinoscriptsyntax, surface related functions
 
 
 ---
-# 14. Project I   
+# 15. Project I   
 
 * Design & Research slides: https://docs.google.com/presentation/d/1Ll6W4CuIg3-IvhAvy2kSR8HMGxJ5KlnZrjLY_mZ4Mn8  
 
@@ -1327,7 +1380,7 @@ Lecture:
 * 프로젝트 기획 및 진행
 	* Review works(Design / Writing / Algorithm)
 
-# 15. Project II
+# 16. Project II
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/computation/02_sys_1500.gif)
 
 ## Assignment:
@@ -1339,7 +1392,6 @@ Lecture:
 ! This schedule could be revised based on the student's expectations and time.
 
 ---
-
 
 **Reference:**
 * Book, Computation Design: https://namjulee.github.io/njs-lab-public/work?id=2022-book-computational-design
