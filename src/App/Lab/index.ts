@@ -94,11 +94,13 @@ const OOPMenu: LinkInfo = {
 const meshMenu: LinkInfo = {
     id: 'Discretization-Mesh-&-Partitions-&-Spatial-Info', env: ENV.DEFAULT, keywords: ['geometry computation design data'], subLinks: [
         { id: 'Discretization-Mesh-&-Partitions-&-Spatial-Info-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-graph-&-network-discrete-design-data/vector-discretization-partitions-mesh?ui=0'); }); } },
-        'divider',
         { id: 'Geometry-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-Geometry-for-design').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
         'divider',
-        // { id: 'Three-Mesh', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_07_Mesh/LAB_Web_05_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        // { id: 'Three-Mesh-Rhino', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_07_Mesh/LAB_Web_06_MeshRhino').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Cube', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_06_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Face', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_07_Mesh-Face').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Terrain', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_08_Mesh-Terrain').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Vertex-Color', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_10_Mesh-Vertex-Color').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Rhino-objects', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         'divider',
 
         { id: 'Delaunay', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/algorithm-&-design-spatial-data-process/delaunay?ui=0'); }); } },
@@ -205,7 +207,7 @@ const visualizationMenu: LinkInfo = {
         { id: 'Three-Mesh-Terrain', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_08_Mesh-Terrain').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         'divider',
         { id: 'Three-Mesh-Vertex-Color', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_10_Mesh-Vertex-Color').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Three-Mesh-Rhino-Geo', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: '-class-Geo', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID); }); } },
         { id: 'Three-bunny', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_12_Bunny').then(({ Solution }) => { return new Solution(param.containerID); }); } },
         { id: 'Three-Voxel', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_13_Voxel').then(({ Solution }) => { return new Solution(param.containerID); }); } },
         'divider',
