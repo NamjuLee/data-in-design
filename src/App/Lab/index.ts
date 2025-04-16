@@ -238,9 +238,8 @@ const cadDevelopMenu: LinkInfo = {
         'divider',
 
         { id: '2D-env', env: ENV.CANVAS, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Canvas').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },  
-        { id: '3D-env', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/ThreeViz').then(({ Solution }) => { return new Solution(param.containerID); }); } },  
-        { id: 'Mapping', env: ENV.JSAPI, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Mapping').then(({ Solution }) => { return new Solution(param.view); }); } }, 
-        { id: 'MappingJS', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Mapping').then(({ Solution }) => { return new Solution(param.containerID); }); } }, 
+        { id: '3D-env', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/ThreeViz').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Mapping', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Mapping').then(({ Solution }) => { return new Solution(param.containerID); }); } }, 
     ]
 };
 // ......................................... set G
