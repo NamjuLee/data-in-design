@@ -8,6 +8,7 @@ import {
   MOUSE_TYPE,
 } from './Event';
 
+
 export class RendererJSAPI {
   id: string;
   time: number;
@@ -15,7 +16,7 @@ export class RendererJSAPI {
   ctx: CanvasRenderingContext2D;
   eventInteraction: EventInteraction;
   mView: any;
-  mPoint: any;
+  mPoint = {spatialReference: null , longitude: 0, latitude: 0 };
   hostDiv: HTMLElement;
   disablePan: boolean = false;
   isStatic: boolean = false;
@@ -121,7 +122,6 @@ export class RendererJSAPI {
   }
   // ...................................................
   public center(lon: number, lat: number) {
-
     this.mPoint.longitude = lon;
     this.mPoint.latitude = lat;
     this.mView.center = this.mPoint;

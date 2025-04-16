@@ -134,7 +134,7 @@ const rasterMenu: LinkInfo = {
     ]
 };
 // ......................................... set E
-const aimlMenu: LinkInfo = {
+const aimlAMenu: LinkInfo = {
     id: 'AI,-ML,-Data-driven-programming', env: ENV.DEFAULT, keywords: ['AI, ML, Data driven programming'], subLinks: [
         { id: 'AI-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ai-for-designers').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'AI-&-data-for-design-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-and-data-for-design?ui=0'); }); } },
@@ -153,12 +153,20 @@ const aimlMenu: LinkInfo = {
         'divider',
 
         { id: 'AI-Reference', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
-            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers?ui=1'); }); } },
-        
-
-        
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers?ui=1'); }); } },  
     ]
 };
+const aimlBMenu: LinkInfo = {
+    id: 'Generative-AI', env: ENV.DEFAULT, keywords: ['AI, ML, Data driven programming'], subLinks: [
+        { id: 'AI-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ai-for-designers').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
+        { id: 'AI-&-data-for-design-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-and-data-for-design?ui=0'); }); } },
+        'divider',
+
+        { id: 'AI-Reference', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { 
+            return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers?ui=1'); }); } },  
+    ]
+};
+
 const designAlgorithmMenu: LinkInfo = {
     id: 'Design-Algorithm-&-Dynamic-&-Opti', env: ENV.DEFAULT, keywords: ['air for design designers'], subLinks: [
         { id: 'Design-Algorithm-&-Dynamic-&-Optimization-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/algorithm-&-design-spatial-data-process/design-algorithm-&-dynamics-&-optimization?ui=0'); }); } },
@@ -227,7 +235,12 @@ const cadDevelopMenu: LinkInfo = {
     id: 'CAD-App-Development', env: ENV.DEFAULT, keywords: ['programming typescript computation thinking code'], subLinks: [
         { id: 'CAD-App-Development-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/cad-app-starter-index/cad-app-starter?ui=0'); }); } },
         { id: 'Plugin-&-Addon-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/cad-app-starter-index/plugin-&-addon?ui=0'); }); } },
-        // 'divider',
+        'divider',
+
+        { id: '2D-env', env: ENV.CANVAS, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Canvas').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },  
+        { id: '3D-env', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/ThreeViz').then(({ Solution }) => { return new Solution(param.containerID); }); } },  
+        { id: 'Mapping', env: ENV.JSAPI, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Mapping').then(({ Solution }) => { return new Solution(param.view); }); } }, 
+        { id: 'MappingJS', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Mapping').then(({ Solution }) => { return new Solution(param.containerID); }); } }, 
     ]
 };
 // ......................................... set G
@@ -251,7 +264,8 @@ export const LAB_LINKS: LinkInfo[] = [
     graphMenu,
     rasterMenu,
     'divider',
-    aimlMenu,
+    aimlAMenu,
+    aimlBMenu,
     designAlgorithmMenu,
     'divider',
     visualizationMenu,
