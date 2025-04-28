@@ -116,6 +116,7 @@ const graphMenu: LinkInfo = {
         { id: 'NNA', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/project-module-selected-works/nna?ui=0&env=nna'); }); } },
         'divider',
         { id: 'Graph-Dynamics', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-dynamics-particle-simulation/graph-dynamics-demo?ui=0'); }); } },
+        { id: 'A-star', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/geometry-spatial-tools/a-star?ui=0&demo'); }); } },
         
     ]
 };
@@ -125,17 +126,15 @@ const rasterMenu: LinkInfo = {
         { id: 'Color-as-data-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-raster-&-color-continuous-design-data/color-as-data?ui=0'); }); } },
         'divider',
         { id: 'Bin-system', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-html-canvas/custom-bin-system?ui=0'); }); } },
-
         { id: 'Pixel', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_09_Raster_Pixel_Voxel/LAB_Web_09_Pixel').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'Voxel', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_09_Raster_Pixel_Voxel/LAB_Web_10_Voxel').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
-        { id: 'A-star', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/geometry-spatial-tools/a-star?ui=0&demo'); }); } },
         { id: 'Data-Structure-and-Algorithm-for-Design-and-Research-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-pixel-&-voxel-map-continuous-design-data/raster-pixel-voxel?ui=0'); }); } },
     
     ]
 };
 // ......................................... set E
 const aimlAMenu: LinkInfo = {
-    id: 'AI,-ML,-Data-driven-programming', env: ENV.DEFAULT, keywords: ['AI, ML, Data driven programming'], subLinks: [
+    id: 'AI,-ML,-for-designers-Data-driven-programming', env: ENV.DEFAULT, keywords: ['AI, ML, Data driven programming'], subLinks: [
         { id: 'AI-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ai-for-designers').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'AI-&-data-for-design-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-and-data-for-design?ui=0'); }); } },
         'divider',
@@ -157,7 +156,7 @@ const aimlAMenu: LinkInfo = {
     ]
 };
 const aimlBMenu: LinkInfo = {
-    id: 'Generative-AI', env: ENV.DEFAULT, keywords: ['AI, ML, Data driven programming'], subLinks: [
+    id: 'AI-aided-Design', env: ENV.DEFAULT, keywords: ['AI, ML, Data driven programming'], subLinks: [
         { id: 'AI-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-ai-for-designers').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         { id: 'AI-&-data-for-design-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/ai-and-data-for-design?ui=0'); }); } },
         'divider',
