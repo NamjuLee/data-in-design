@@ -8,6 +8,18 @@
 
 Data in Design: 0 Syllabus
 
+
+<div style="position: relative; width: 100%; padding-top: 59.8%; background-color: #ffffff;">
+  <iframe
+    src="https://docs.google.com/presentation/d/e/2PACX-1vTOCipZerfdtnr9Fp7cskIXbG1JB7XP6s2Lf_nC0qSvZm4bvTLLM_r7WgRKrxN-zi2KIHuwUvDDAqaW/pubembed?start=false&loop=false&delayms=3000"
+    frameborder="0"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: white;"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- <iframe src="" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+
 ---
 
 # DATA in DESIGN
@@ -273,35 +285,38 @@ Design and implement custom tools for design algorithms and projects, tailored t
   9-4. Numerical Image Tool 이해와 적용
 
 ---
-### 10. 인공지능과 디자인   
+### 10. 디자이너를 위한 인공지능   
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_45), [Sub Slides](https://docs.google.com/presentation/d/1h1k2N5d-ejlsE4Oaw3_dY-gfp6aCZyc7W1QFb8zO7Ww/edit#slide=id.g3311d265024_1_0)   
   10-1. 인공지능의 이해와 컴퓨테이셔널 디자인  
   10-2. 귀납적 사고와 머신러닝  
   10-3. 문제 정의, 데이터 활용, 인공지능 모델 이해  
   10-4. 분석형 모델 & 생성형 모델: 데이터 형식과 내용 그리고 모델의 적용
 
-### 11. 생성형 & 분석형 인공지능
+### 11. 디자인을 위한 분석형 & 생성형 인공지능
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_45), [Sub Slides](https://docs.google.com/presentation/d/1doBs3aSmZYoaLMCfzKzOfh2o2r7tDj2rQgUy53JXa9Q/edit#slide=id.g3438d42c00b_0_0)   
-
+  11-1. 문제 정의, 데이터 활용, 인공지능 모델 이해  
+  11-2. 데이터 형식과 내용 그리고 모델의 적용  
+  11-3. 분석형 모델(회기 / 분류 모델과 디자인 데이터)  
+  11-4. 생성형 모델(이미지, Transformer, LLM 모델)  
 
 ### 12. 디자인 알고리즘: 최적화와 구현 & 다이내믹스  
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_35), [Sub Slides](https://docs.google.com/presentation/d/18N_u8LJRwe8OYTJDFqicYapNVttB4mq6sFFL-A6Xlus/edit#slide=id.g3311d26508e_0_50)    
-  11-1. 문제에 특성과 최적화 이해
-  11-2. 디자인 프로세스의 코드화 및 최적화  
-  11-3. 벡터와 다이내믹스  
+  12-1. 문제에 특성과 최적화 이해
+  12-2. 디자인 프로세스의 코드화 및 최적화  
+  12-3. 벡터와 다이내믹스  
 
 ---
 ### 13. 데이터(디자인) 시각화   
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g3306f31fec8_9_5), [Sub Slides](https://docs.google.com/presentation/d/1_8A_ONw4lpCGR3cwS71rbmzDpUStGxJ9lPL-YntxAiQ/edit#slide=id.g3311d3ccee9_0_50)  
-  12-1. 데이터 시각화의 이해와 구현  
-  12-2. 2D, 3D 시각화와 파이프라인 이해  
-  12-3. VR/AR/MR 시각화 구현  
+  13-1. 데이터 시각화의 이해와 구현  
+  13-2. 2D, 3D 시각화와 파이프라인 이해  
+  13-3. VR/AR/MR 시각화 구현  
 
 ### 14. CAD 프로그램 개발 
 [Slides](https://docs.google.com/presentation/d/1GleNkuu6Uuif7y8EXv9ArdqGaEJs9s-5cK8O9SN3AeI/edit#slide=id.g324bb5a5349_0_1686), [Sub Slides](https://docs.google.com/presentation/d/1oQEzjHUPY0kKehWXD5ZbwDDJIVL7W9wH0vWlJpqRW5w/edit#slide=id.g3311d3ccf75_0_50)    
-  13-1. 디자인 소프트웨어의 이해  
-  13-2. 연구 및 디자인 도구 개발  
-  13-3. Web / Windows / IOS/ Addon / Plugin Development
+  14-1. 디자인 소프트웨어의 이해  
+  14-2. 연구 및 디자인 도구 개발  
+  14-3. Web / Windows / IOS/ Addon / Plugin Development
 
 ---
 ### 15. 프로젝트 1
@@ -1006,8 +1021,8 @@ rhinoscriptsyntax, surface related functions
 
 
 ---
-# 10. AI, ML, in Design 
-## 10. 인공지능과 디자인
+# 10. AI for Designers
+## 10. 디자이너를 위한 인공지능
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/Data-Design-AI-for-Urban-Data-and-Viz-Harvard-GSD-public/main/public/reference/img/ml.jpg)
 
 ## 10.1 Lecture:  
@@ -1086,13 +1101,17 @@ rhinoscriptsyntax, surface related functions
 * Regression - https://namjulee.github.io/njs-lab-public/lab/ai-&-ml-for-designers/tf-regression
 
 
-# 11. Analytical AI & Generative AI
-## 11. 분석형 & 생성형 인공지능
+# 11. AI-aided Design 
+## 11. 디자인을 위한 분석형 & 생성형 인공지능
 
 ![Data in Design](https://raw.githubusercontent.com/NamjuLee/data/master/works/ai/CartPole.gif)
 
 ## 11.1 Lecture:  
-
+* Analytical AI & Generative AI
+11-1. Problem Definition, Data Utilization, and Understanding of AI Models  
+11-2. Data Format, Content, and Model Application  
+11-3. Analytical Models (Regression and Classification for Design Data)  
+11-4. Generative Models (Image Generation, Transformers, and Large Language Models)  
 
 ## 11.2 Discussion:  
 * Will some jobs be replaced by Artificial Intelligence? 
