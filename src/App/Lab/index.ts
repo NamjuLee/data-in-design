@@ -96,11 +96,11 @@ const meshMenu: LinkInfo = {
         { id: 'Discretization-Mesh-&-Partitions-&-Spatial-Info-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/lab-graph-&-network-discrete-design-data/vector-discretization-partitions-mesh?ui=0'); }); } },
         { id: 'Geometry-for-Design', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-Geometry-for-design').then(({ Solution }) => { return new Solution(param.view as HTMLElement) }); } },
         'divider',
-        { id: 'Mesh-Cube', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_06_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Mesh-Face', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_07_Mesh-Face').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Mesh-Terrain', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_08_Mesh-Terrain').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Mesh-Vertex-Color', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_10_Mesh-Vertex-Color').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Mesh-Rhino-objects', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Cube', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_06_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Face', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_07_Mesh-Face').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Terrain', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_08_Mesh-Terrain').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Vertex-Color', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_10_Mesh-Vertex-Color').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Mesh-Rhino-objects', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         'divider',
 
         { id: 'Delaunay', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/algorithm-&-design-spatial-data-process/delaunay?ui=0'); }); } },
@@ -193,41 +193,51 @@ const designAlgorithmMenu: LinkInfo = {
 };
 // ......................................... set F
 const visualizationMenu: LinkInfo = {
-    id: 'Design-&-Data-Visualization', env: ENV.DEFAULT, keywords: ['3d visualization gis, point, line, polyline, polygon, mesh'], subLinks: [
+    id: 'Data-Visualization', env: ENV.DEFAULT, keywords: ['3d visualization gis, point, line, polyline, polygon, mesh'], subLinks: [
         { id: 'Design-&-Data-Visualization-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/visualization-design-data-vr-ar-mr/design-vis-web?ui=0'); }); } },
-        { id: 'Unity-workshop', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/workshop-series/unity?ui=0'); }); } },  
-        
         'divider',
-        { id: 'Canvas-Point-Circle', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_2D_Visualization/LAB_Web_01_Point_Circle').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
-        { id: 'Canvas-Line-Polyline', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_2D_Visualization/LAB_Web_02_Line_Polyline').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
-        { id: 'Canvas-Polyline-mouse-input', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_2D_Visualization/LAB_Web_03_Polyline-Mouse-Input').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
-        { id: 'Canvas-Polygon', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_2D_Visualization/LAB_Web_04_Polygon').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
+        { id: 'Canvas-Point-Circle', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_2D_Visualization/LAB_Web_01_Point_Circle').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
+        { id: 'Canvas-Line-Polyline', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_2D_Visualization/LAB_Web_02_Line_Polyline').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
+        { id: 'Canvas-Polyline-mouse-input', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_2D_Visualization/LAB_Web_03_Polyline-Mouse-Input').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
+        { id: 'Canvas-Polygon', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_2D_Visualization/LAB_Web_04_Polygon').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement) }); } },
         'divider',
-        { id: 'Three-Starter', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_01_Starter-Three').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Starter', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_01_Starter-Three').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         'divider',
-        { id: 'Three-Primitive', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_02_PrimitiveGeometry').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Three-Point', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_03_Point').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Three-Line-Polyline', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_04_LinePolyline').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Three-Polygon', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_05_Polygon').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Three-Mesh-Box', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_06_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Three-Mesh-Face', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_07_Mesh-Face').then(({ Solution }) => { return new Solution(param.containerID) }); } },
-        { id: 'Three-Mesh-Terrain', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_08_Mesh-Terrain').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Primitive', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_02_PrimitiveGeometry').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Point', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_03_Point').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Line-Polyline', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_04_LinePolyline').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Polygon', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_05_Polygon').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Mesh-Box', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_06_Mesh').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Mesh-Face', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_07_Mesh-Face').then(({ Solution }) => { return new Solution(param.containerID) }); } },
+        { id: 'Three-Mesh-Terrain', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_08_Mesh-Terrain').then(({ Solution }) => { return new Solution(param.containerID) }); } },
         'divider',
-        { id: 'Three-Mesh-Vertex-Color', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_10_Mesh-Vertex-Color').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: '-class-Geo', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Three-bunny', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_12_Bunny').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Three-Voxel', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_13_Voxel').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Three-Mesh-Vertex-Color', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_10_Mesh-Vertex-Color').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: '-class-Geo', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_11_MeshRhinoGeo').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Three-bunny', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_12_Bunny').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Three-Voxel', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/LAB_Web_13_Voxel').then(({ Solution }) => { return new Solution(param.containerID); }); } },
         'divider',
         { id: '[Link]-Code-Pen', env: ENV.THREE, keywords: [], load: (param) => { return import('../links/Link-codepen-three').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },
+    ]
+};
+const visualizationMappingMenu: LinkInfo = {
+    id: 'Digital-Mapping-GIS-Viz', env: ENV.DEFAULT, keywords: ['3d visualization gis, point, line, polyline, polygon, mesh'], subLinks: [
+        { id: 'Design-&-Data-Visualization-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/visualization-design-data-vr-ar-mr/design-vis-web?ui=0'); }); } },
         'divider',
+        
         { id: '[Link]-Slow-zone-paper', env: ENV.THREE, keywords: [], load: (param) => { return import('../links/Link-Slow-zone-paper').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },
-        { id: 'Slow-zone-Point', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_01_Point').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Slow-zone-Line', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_02_Line').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Slow-zone-Polyline', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_03_Polyline').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Slow-zone-Polygon', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_13_Design_Data_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_04_Polygon').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Slow-zone-Point', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_01_Point').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Slow-zone-Line', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_02_Line').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Slow-zone-Polyline', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_03_Polyline').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Slow-zone-Polygon', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_15_Digital_Mapping_GIS_for_Visualization/LAB_Web_3D_Visualization_for_GIS/Slowzone_04_Polygon').then(({ Solution }) => { return new Solution(param.containerID); }); } },
         'divider',
         { id: 'Slow-zone-Viz-3D', env: ENV.THREE, keywords: [], load: (param) => { return import('../links/External-Slow-zone-project-3d').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },
         { id: 'Slow-zone-Viz-2D', env: ENV.THREE, keywords: [], load: (param) => { return import('../links/External-Slow-zone-project-2d').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },
+    ]
+};
+const visualizationDesignMenu: LinkInfo = {
+    id: 'Data-Visualization', env: ENV.DEFAULT, keywords: ['3d visualization gis, point, line, polyline, polygon, mesh'], subLinks: [
+        { id: 'Design-&-Data-Visualization-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/visualization-design-data-vr-ar-mr/design-vis-web?ui=0'); }); } },
+        { id: 'Unity-workshop', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/workshop-series/unity?ui=0'); }); } },  
     ]
 };
 const cadDevelopMenu: LinkInfo = {
@@ -236,9 +246,9 @@ const cadDevelopMenu: LinkInfo = {
         { id: 'Plugin-&-Addon-lecture', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../links/External-embed').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement, 'https://namjulee.github.io/njs-lab-public/lab/cad-app-starter-index/plugin-&-addon?ui=0'); }); } },
         'divider',
 
-        { id: '2D-env', env: ENV.CANVAS, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Canvas').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },  
-        { id: '3D-env', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/ThreeViz').then(({ Solution }) => { return new Solution(param.containerID); }); } },
-        { id: 'Mapping', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_14_CAD_App/Mapping').then(({ Solution }) => { return new Solution(param.containerID); }); } }, 
+        { id: '2D-env', env: ENV.CANVAS, keywords: [], load: (param) => { return import('../../CLASS_17_CAD_App_Development/Canvas').then(({ Solution }) => { return new Solution(param.view as HTMLDivElement); }); } },  
+        { id: '3D-env', env: ENV.THREE, keywords: [], load: (param) => { return import('../../CLASS_17_CAD_App_Development/ThreeViz').then(({ Solution }) => { return new Solution(param.containerID); }); } },
+        { id: 'Mapping', env: ENV.DEFAULT, keywords: [], load: (param) => { return import('../../CLASS_17_CAD_App_Development/Mapping').then(({ Solution }) => { return new Solution(param.containerID); }); } }, 
     ]
 };
 // ......................................... set G
@@ -267,6 +277,9 @@ export const LAB_LINKS: LinkInfo[] = [
     designAlgorithmMenu,
     'divider',
     visualizationMenu,
+    visualizationMappingMenu,
+    visualizationDesignMenu,
+    'divider', 
     cadDevelopMenu,
     'divider', 
     projectMenu,
